@@ -1,0 +1,28 @@
+body{
+    /* background-image: url("{{ url_for('static', filename='images/bg1.jpg') }}"); */
+    background-image: url('../images/bg1.jpg');
+
+    /* Full height */
+    height: 100%;
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* overflow: hidden; */
+    }
+
+    .upload_image {
+        margin-top: 20px;
+        width: 500px;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+    }
+    .mergin-top{
+     margin-top: 80px;
+    }
+    .pred{
+        display: block;
+    }
