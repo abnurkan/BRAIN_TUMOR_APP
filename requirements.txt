@@ -44,3 +44,4 @@ urllib3==2.2.2
 uvicorn==0.30.6
 Werkzeug==3.0.4
 wrapt==1.16.0
+Gunicorn
